@@ -2,32 +2,32 @@ import * as elem from "./elements";
 
 
 const moviesYes = [
-    "001-animation.webm",
-    "002-animation.webm",
-    "003-animation.webm",
-    "004-animation.webm",
-    "005-animation.webm",
-    "006-animation.webm",
-    "007-animation.webm",
-    "008-animation.webm",
-    "009-animation.webm",
-    "010-animation.webm",
+    "001-animation.mp4",
+    "002-animation.mp4",
+    "003-animation.mp4",
+    "004-animation.mp4",
+    "005-animation.mp4",
+    "006-animation.mp4",
+    "007-animation.mp4",
+    "008-animation.mp4",
+    "009-animation.mp4",
+    "010-animation.mp4",
 ];
 
 const moviesNo = [
-    "101-animation.webm",
-    "102-animation.webm",
-    "103-animation.webm",
-    "104-animation.webm",
-    "105-animation.webm",
-    "106-animation.webm",
-    "107-animation.webm",
-    "108-animation.webm",
-    "109-animation.webm",
-    "110-animation.webm",
+    "101-animation.mp4",
+    "102-animation.mp4",
+    "103-animation.mp4",
+    "104-animation.mp4",
+    "105-animation.mp4",
+    "106-animation.mp4",
+    "107-animation.mp4",
+    "108-animation.mp4",
+    "109-animation.mp4",
+    "110-animation.mp4",
 ];
 
-const playlist1 = "./movie/injection-animation.webm";
+const playlist1 = "./movie/injection-animation.mp4";
 let playlist2: string;
 
 
