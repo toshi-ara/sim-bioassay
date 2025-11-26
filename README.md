@@ -116,6 +116,9 @@ npm run build
 
 
 ## ChangeLog
+### v1.0.1 (2025-11-25)
+- Change movie file to mp4
+
 ### v1.0.0 (2025-11-23)
 - Initial release
 
