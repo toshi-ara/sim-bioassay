@@ -116,6 +116,10 @@ npm run build
 
 
 ## ChangeLog
+### v1.0.2 (2025-11-27)
+- move ts and css folder to src folder
+- delete docs folder
+
 ### v1.0.1 (2025-11-25)
 - Change movie file to mp4
 
