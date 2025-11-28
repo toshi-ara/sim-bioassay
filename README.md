@@ -116,6 +116,10 @@ npm run build
 
 
 ## ChangeLog
+### v1.0.3 (2025-11-28)
+- Fixed tsconfig.json options
+- Changed the injection movie to only play on the first run
+
 ### v1.0.2 (2025-11-27)
 - move ts and css folder to src folder
 - delete docs folder
