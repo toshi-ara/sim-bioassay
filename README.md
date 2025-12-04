@@ -116,6 +116,9 @@ npm run build
 
 
 ## ChangeLog
+### v1.0.4 (2025-12-4)
+- Fixed an issue where injection movie dows not play
+
 ### v1.0.3 (2025-11-28)
 - Fixed tsconfig.json options
 - Changed the injection movie to only play on the first run
