@@ -29,7 +29,7 @@ const moviesNo = [
 
 const playlist1 = "./movie/injection-animation.mp4";
 let playlist2: string;
-let isFirstMovie = false;
+let isFirstMovie = true;
 
 
 export function playMovie(reaction: number) {
@@ -82,5 +82,6 @@ export function playMovie(reaction: number) {
             console.log("Autoplay blocked:", err);
         });
     }
+    isFirstMovie = false;
 }
 
