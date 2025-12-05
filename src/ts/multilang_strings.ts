@@ -1,4 +1,25 @@
-export const langStr = {
+export type Lang = "en" | "ja";
+
+export interface LangItem {
+    en: string;
+    ja: string;
+}
+
+export interface LangReactionItem {
+    en: string[];
+    ja: string[];
+}
+
+export interface LangStr {
+    [key: string]: LangItem;
+}
+
+export interface LangReactionStr {
+    [key: string]: LangReactionItem;
+}
+
+
+export const langStr: LangStr = {
     "lang-initial-exp-btn": {
         "en": "Experiment",
         "ja": "実験",
@@ -100,10 +121,6 @@ export const langStr = {
         "en": "(Waiting)",
         "ja": "（待機中）",
     },
-    "reaction": {
-        "en": ["No reaction", "Convulsions", "Convulsions -> Death"],
-        "ja": ["反応なし", "けいれん", "けいれん → 死亡"],
-    },
     // Calculation tab
     //   header of table at Calculation tab
     "headerDose": {
@@ -141,3 +158,9 @@ export const langStr = {
     // },
 }
 
+export const langReactionStr: LangReactionStr = {
+    "reaction": {
+        "en": ["No reaction", "Convulsions", "Convulsions -> Death"],
+        "ja": ["反応なし", "けいれん", "けいれん → 死亡"],
+    }
+}

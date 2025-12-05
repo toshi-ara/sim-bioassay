@@ -92,7 +92,7 @@ function getStrDoseTime(dose: number, time: number): string {
     const lang = getSelectedLang();
     const str = langStr["dose"][lang] + dose.toFixed(1) + " mg/kg / " +
                 langStr["time"][lang] + time + langStr["minute"][lang];
-    return str 
+    return str;
 }
 
 // Return:

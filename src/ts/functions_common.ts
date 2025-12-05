@@ -1,5 +1,5 @@
 import * as elem from "./elements";
-import { langStr } from "./multilang_strings";
+import { Lang, langStr, langReactionStr } from "./multilang_strings";
 import { Dose } from "./parameters";
 
 
@@ -19,21 +19,21 @@ export function getSelectedDose(): number[] {
     return Dose[Number(idx)];
 }
 
-export function getSelectedLang(): string {
-    return elem.selectLang.value;
+export function getSelectedLang(): Lang {
+    return elem.selectLang.value as Lang;
 }
 
 // get TD50 or LD50
 export function getSelectedReaction(): string {
     const idx = elem.calcSelectReaction.value;
-    return reactionsD50[idx];
+    return reactionsD50[Number(idx)];
 }
 
 
 // display reaction at Experiment tab
 export function displayReactionStr(reaction: number) {
     const lang = getSelectedLang();
-    elem.expReaction.textContent = langStr["reaction"][lang][reaction];
+    elem.expReaction.textContent = langReactionStr["reaction"][lang][reaction];
 }
 
 export function resetDisplayReaction() {

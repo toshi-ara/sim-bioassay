@@ -1,5 +1,5 @@
 import * as elem from "./elements";
-import { langStr } from "./multilang_strings";
+import { langStr, Lang, LangItem } from "./multilang_strings";
 import { Dose } from "./parameters";
 import {
     getSelectedLang,
@@ -32,13 +32,13 @@ export function settingChangeValues () {
     }
 
     const doseIdx = getSelectedDoseIdx();
-    const dose = Dose[doseIdx];
+    const dose = Dose[Number(doseIdx)];
 
     // Experiment tab
     settingConcPulldownMenu(dose);  // set concentration to pulldown menu
 
     // Calculation tab
-    if (String(doseIdx) != saveReactionIdx) {  // change dose
+    if (doseIdx != saveReactionIdx) {  // change dose
         // Experiment tab
         resetDisplayReaction();
         // Calculation tab
@@ -109,7 +109,6 @@ function joinNumber2Str(data: number[], digit: number, sep: string): string {
 // multi-language
 ////////////////////////////////////////
 
-interface TypeLang { [key: string]: string };
 const langDefault = "en";
 
 // elements with class="multilang"
@@ -127,7 +126,7 @@ export function changeLang(): string {
 
         if (langId in langStr) {
             // get hash with lang ("ja", "en", ...)
-            const hashStr: TypeLang = langStr[langId]
+            const hashStr: LangItem = langStr[langId]
             if (lang in hashStr) {
                 elem.innerHTML = hashStr[lang];
             } else {
@@ -140,7 +139,7 @@ export function changeLang(): string {
 }
 
 
-export function changeInputTableHeaderLang(lang: string) {
+export function changeInputTableHeaderLang(lang: Lang) {
     // input table at Calculation tab
     const headerDose = <HTMLElement>document
         .getElementById("calc-table-input-header-dose")!;
