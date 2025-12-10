@@ -116,6 +116,11 @@ npm run build
 
 
 ## ChangeLog
+### v1.1.0 (2025-12-10)
+- Shorten movies
+- Corrected Type
+- Updated npm packages
+
 ### v1.0.4 (2025-12-4)
 - Fixed an issue where injection movie dows not play
 
