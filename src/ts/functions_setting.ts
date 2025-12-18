@@ -115,7 +115,7 @@ const langDefault = "en";
 const langEl = document.querySelectorAll<HTMLElement>(".multilang");
 
 
-export function changeLang(): string {
+export function changeLang(): Lang {
     // selected language
     const lang = getSelectedLang();
 
