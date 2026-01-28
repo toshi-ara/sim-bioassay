@@ -116,6 +116,10 @@ npm run build
 
 
 ## ChangeLog
+### v1.2.0 (2026-1-28)
+- Changed to a single HTML file (no web server required)
+- Updated npm packages
+
 ### v1.1.0 (2025-12-10)
 - Shorten movies
 - Corrected Type
