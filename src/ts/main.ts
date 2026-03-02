@@ -1,3 +1,4 @@
+import { VERSION } from "./Version"
 import * as elem from "./elements"
 import { Dose } from "./parameters"
 import {
@@ -130,6 +131,7 @@ elem.settingCancelBtn.addEventListener("click", () => {
 ///////////////////////////////////////
 document.addEventListener("DOMContentLoaded", () => {
     // initial settings
+    elem.initialVersion.innerText = `Version ${VERSION}`;
     const initDose = Dose[initConcIdx];
     settingConcPulldownMenu(initDose);    // Experiment tab
     makeInputTable(initDose);             // Calculation tab

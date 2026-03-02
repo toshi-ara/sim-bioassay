@@ -24,6 +24,8 @@ export const settingBtn = <HTMLInputElement>document
     .getElementById("initial-setting-btn")!;
 export const selectLang = <HTMLSelectElement>document
     .getElementById("initial-select-lang")!;
+export const initialVersion = <HTMLLabelElement>document
+    .getElementById("initial-version")!;
 
 // Experiment Tab
 export const expWeight = <HTMLElement>document
