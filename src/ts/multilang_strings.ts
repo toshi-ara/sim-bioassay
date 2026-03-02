@@ -40,6 +40,10 @@ export const langStr: LangStr = {
         "en": "Back",
         "ja": "戻る",
     },
+    "lang-exp-drug-name": {
+        "en": "Drug: Lidocaine",
+        "ja": "薬物：リドカイン",
+    },
     "lang-exp-weight": {
         "en": "Weight",
         "ja": "体重",
@@ -87,6 +91,10 @@ export const langStr: LangStr = {
     "lang-setting-no-movie": {
         "en": "No movie",
         "ja": "動画なし",
+    },
+    "lang-setting-drug-concentration": {
+        "en": "Lidocaine Concentration",
+        "ja": "リドカイン濃度",
     },
     "lang-setting-preset1": {
         "en": "Preset1 (for TD₅₀)",
