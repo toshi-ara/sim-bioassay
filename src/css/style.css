@@ -45,6 +45,12 @@ h2 {
     }
 }
 
+.exp-drug-name {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
 .exp-input-table {
     margin: 10px auto;
     padding: 10px;
@@ -91,7 +97,7 @@ h2 {
 }
 
 .video-16x9 {
-    width: 720px;;
+    width: 720px;
     max-width: 95%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -159,6 +165,12 @@ th, td {
     padding: 15px;
     max-width: 500px;
     background-color: white;
+}
+
+.setting-drug-concentration {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .preset {
