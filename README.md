@@ -116,6 +116,9 @@ npm run build
 
 
 ## ChangeLog
+### v1.2.2 (2026-3-4)
+- Improve CSS
+
 ### v1.2.1 (2026-3-2)
 - Display drug name
 - Updated npm packages
