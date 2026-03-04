@@ -8,25 +8,30 @@ body {
 
 
 h1 {
-    font-size: 28px;
+    font-size: 1.4em;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
-#initial-version {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    color: gray;
+.hidden {
+    display: none !important;
 }
+
 
 /* Initial tab */
 #initial-select-lang {
     margin: 5px auto;
     height: 1.8em;
     font-size: 1em;
+}
+
+#initial-version {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: gray;
 }
 
 
@@ -52,7 +57,11 @@ h2 {
 }
 
 .exp-input-table {
-    margin: 10px auto;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     background-color: white;
     border: 1px solid gray;
@@ -84,7 +93,7 @@ h2 {
     margin-bottom: 5px;
     margin-left: 15px;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.1em;
     color: darkblue;
 }
 
@@ -93,7 +102,7 @@ h2 {
     margin-bottom: 10px;
     margin-left: 2em;
     text-align: left;
-    font-size: 32px;
+    font-size: 1.5em;
 }
 
 .video-16x9 {
@@ -113,25 +122,27 @@ h2 {
     margin-bottom: 10px;
     padding: 10px 10px;
     background-color: #e0e0e0;
+    font-size: 1em;
 }
 
-[id^="calc-total-"] {
-    width: 80px;
-    font-size: 21px;
+.calc-total {
+    width: 4em;
+    font-size: 1em;
 }
 
-[id^="calc-response-"] {
-    width: 80px;
-    font-size: 21px;
+.calc-response {
+    width: 4em;
+    font-size: 1em;
 }
 
 #calc-select-reaction {
-    width: 70px;
+    width: 3.5em;
+    font-size: 1em;
 }
 
 #calc-result-d50 {
     margin: 20px auto;
-    font-size: 24px;
+    font-size: 1.3em;
 }
 
 #calc-result-area {
@@ -139,10 +150,10 @@ h2 {
 }
 
 #calc-result-table {
-    font-size: 18px;
     margin: 20px auto;
     padding: 10px;
     background-color: white;
+    font-size: 1em;
 }
 
 th, td {
@@ -150,6 +161,7 @@ th, td {
 }
 
 #calc-result-plot {
+    position: static;
     width: 100%;
     max-width: 500px;
     margin: 10px auto;
@@ -169,7 +181,7 @@ th, td {
 
 .setting-drug-concentration {
     display: block;
-    font-size: 24px;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
@@ -190,10 +202,10 @@ th, td {
 }
 
 
-select {
-    font-size: 21px;
+#setting-select-movie {
     width: 200px;
     margin: 5px auto;
+    font-size: 1.1em;
 }
 
 
@@ -210,23 +222,11 @@ button {
     cursor: pointer;
     font-size: 1em;
 }
-.initial {
-    width: 240px;
-}
-.administration {
-    width: 250px;
-}
-.newexp {
-    width: 120px;
-}
-.calc-d50-btn {
-    width: 160px;
-}
-.back {
-    width: 90px;
-    background-color: darkmagenta;
-}
-.cancel {
-    background-color: darkred;
-}
+
+button.initial { width: 280px; }
+button.administration { width: 280px; }
+button.newexp { width: 150px; }
+button.calc-d50-btn { width: 160px; }
+button.back { width: 100px; background-color: darkmagenta; }
+button.cancel { background-color: darkred; }
 
