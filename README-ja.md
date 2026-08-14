@@ -5,7 +5,7 @@
 
 
 ## 実行方法について
-- [このページ](https://toshi-ara.github.io/simla-ts/sim_bioassay.html)
+- [このページ](https://toshiakiara.github.io/simla-ts/sim_bioassay.html)
   にアクセスして下さい
 
 

@@ -6,7 +6,7 @@
 
 
 ## How to run
-- Access [this page](https://toshi-ara.github.io/sim-bioassay).
+- Access [this page](https://toshiakiara.github.io/sim-bioassay).
 
 
 ## About training procedures
